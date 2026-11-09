@@ -1,0 +1,1 @@
+/* Product catalog interactions can be added when live product data is available. */

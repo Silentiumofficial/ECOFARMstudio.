@@ -1,0 +1,36 @@
+/* ECOFORM SERVICE GALLERIES & PRODUCT CATALOG */
+.catalog-hero{min-height:48vh;padding:145px 7% 65px;background:#111811;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden}
+.catalog-hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,14,8,.65),rgba(7,14,8,.12));pointer-events:none}
+.catalog-hero>*{position:relative;z-index:1}.catalog-hero .eyebrow{font-size:10px;letter-spacing:3px;color:#b9c9ad;font-weight:700;margin-bottom:18px}.catalog-hero h1{font-size:clamp(42px,7vw,82px);line-height:.98;letter-spacing:-.05em;margin:0 0 20px}.catalog-hero>p:last-child{max-width:650px;color:rgba(255,255,255,.78);line-height:1.8;font-size:14px}
+.visual-gallery,.shop-section{padding:65px 7% 80px;background:#f3f4ef}.visual-gallery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.visual-card{position:relative;margin:0;min-height:330px;overflow:hidden;background:#dce2d8;border-radius:9px}.visual-card img{width:100%;height:100%;min-height:330px;display:block;object-fit:cover;transition:transform .6s}.visual-card:hover img{transform:scale(1.035)}.visual-card figcaption{position:absolute;left:20px;bottom:18px;color:white;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;text-shadow:0 2px 12px rgba(0,0,0,.8)}
+.catalog-note{max-width:900px;margin:25px auto 0;color:#697365;font-size:11px;line-height:1.7;text-align:center}
+.choice-grid{padding:60px 7% 85px;background:#f3f4ef;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.choice-card{position:relative;min-height:440px;border-radius:10px;overflow:hidden;color:#fff}.choice-card>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s}.choice-card:hover>img{transform:scale(1.04)}.choice-card:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(4,12,6,.9),rgba(4,12,6,.08) 75%)}.choice-card>div{position:absolute;z-index:1;left:28px;right:28px;bottom:28px}.choice-card small,.shop-category{font-size:9px;letter-spacing:2px;font-weight:700;color:#b9c9ad}.choice-card h2{font-size:clamp(25px,3vw,38px);margin:10px 0}.choice-card p{font-size:13px;line-height:1.7;color:rgba(255,255,255,.8)}.choice-card span{display:inline-block;margin-top:12px;font-size:10px;letter-spacing:1.5px;font-weight:700}
+.shop-toolbar{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;padding-bottom:18px;margin-bottom:25px;border-bottom:1px solid #d7ddd2;font-size:10px;letter-spacing:2px;color:#526b50;font-weight:700}.shop-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.shop-card{background:#fff;border-radius:9px;overflow:hidden}.shop-card>img{display:block;width:100%;height:300px;object-fit:cover}.shop-card>div{padding:22px}.shop-card h2{font-size:22px;margin:9px 0}.shop-card p:not(.shop-category){font-size:12px;line-height:1.7;color:#687267}.shop-link{display:inline-flex;margin-top:14px;padding:11px 15px;border-radius:25px;background:#526b50;color:#fff;font-size:10px;font-weight:700;letter-spacing:1px}
+@media(max-width:760px){.catalog-hero{min-height:42vh;padding:125px 22px 48px}.visual-gallery,.shop-section{padding:45px 20px 60px}.visual-gallery-grid,.choice-grid,.shop-grid{grid-template-columns:1fr}.visual-card,.visual-card img{min-height:260px}.choice-grid{padding:40px 20px 60px}.choice-card{min-height:350px}.shop-card>img{height:250px}.shop-card>div{padding:18px}}
+
+/* ECOFORM recycled interior storefront */
+.shop-hero{background:linear-gradient(90deg,rgba(10,18,12,.82),rgba(10,18,12,.25)),url('https://images.unsplash.com/photo-1499933374294-4584851497cc?w=2000&q=90') center/cover no-repeat}
+.shop-hero-link{display:inline-flex;align-items:center;gap:18px;margin-top:25px;color:#fff;font-size:10px;font-weight:700;letter-spacing:2px;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.55);padding-bottom:10px;width:max-content}
+.shop-hero-link span{font-size:17px}
+.shop-heading{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:42px}
+.shop-kicker{font-size:9px;letter-spacing:2.5px;font-weight:700;color:#71836a;margin-bottom:12px}
+.shop-heading h2{font-size:clamp(30px,4vw,48px);letter-spacing:-.04em;color:#172018;line-height:1.05}
+.shop-heading h2 span{color:#75866b}
+.shop-heading>p{max-width:390px;color:#687267;font-size:13px;line-height:1.8}
+.shop-image-link{display:block;position:relative;overflow:hidden;background:#e5e8e1}
+.shop-image-link img{display:block;width:100%;height:290px;object-fit:cover;transition:transform .6s}
+.shop-card:hover .shop-image-link img{transform:scale(1.045)}
+.product-tag{position:absolute;top:15px;left:15px;background:#f3f4ef;color:#263527;padding:8px 11px;font-size:8px;letter-spacing:1.5px;font-weight:800}
+.shop-card-info{padding:20px 21px 22px}
+.shop-card-info h3{font-size:20px;color:#172018;margin:8px 0}
+.shop-card-info>p:not(.shop-category){min-height:42px;font-size:12px;line-height:1.7;color:#687267}
+.shop-buy-row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:19px;padding-top:15px;border-top:1px solid #e5e8e1}
+.shop-buy-row strong{font-size:14px;color:#172018}
+.shop-buy-button{display:inline-flex;align-items:center;justify-content:center;padding:12px 17px;border:0;border-radius:2px;background:#263b2a;color:#fff;font-size:9px;font-weight:800;letter-spacing:1.4px;text-decoration:none;transition:background .25s,transform .25s}
+.shop-buy-button:hover{background:#71836a;transform:translateY(-2px)}
+.shop-bottom-cta{padding:75px 7%;background:#172018;color:#fff;text-align:center}
+.shop-bottom-cta>p{font-size:9px;letter-spacing:3px;color:#b9c9ad;font-weight:700}
+.shop-bottom-cta h2{font-size:clamp(34px,5vw,58px);line-height:1.02;letter-spacing:-.04em;margin:18px 0 25px}
+.shop-bottom-cta h2 span{color:#b9c9ad}
+.shop-bottom-cta .shop-buy-button{background:#dce5d5;color:#172018}
+@media(max-width:760px){.shop-heading{display:block}.shop-heading>p{margin-top:16px}.shop-image-link img{height:260px}.shop-card-info>p:not(.shop-category){min-height:0}.shop-buy-row{align-items:center}}

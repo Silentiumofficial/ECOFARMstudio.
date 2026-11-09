@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="ECOFORM STUDIO — Architecture, Interior Design, Landscape and 3D Visualization.">
+
+    <meta name="theme-color" content="#080b09">
+
+    <title>Ecoform Studio | Belajar, Lihat, dan Pilih Rumah Hijau</title>
+
+    <!-- GLOBAL CSS -->
+    <link rel="stylesheet" href="../../css/global/reset.css">
+    <link rel="stylesheet" href="../../css/global/variables.css">
+    <link rel="stylesheet" href="../../css/global/typography.css">
+    <link rel="stylesheet" href="../../css/global/global.css">
+
+    <!-- COMPONENT CSS -->
+    <link rel="stylesheet" href="../../css/components/navbar.css">
+
+    <!-- HOME CSS -->
+    <link rel="stylesheet" href="../../css/pages/home.css">
+    <link rel="stylesheet" href="../../css/pages/ecoform-story.css">
+    <link rel="stylesheet" href="../../css/pages/elegant-layout.css">
+<link rel="stylesheet" href="../../css/pages/friendly.css">
+</head>
+
+<body>
+<div id="welcome" role="dialog" aria-modal="true" aria-labelledby="wTitle"><div class="w-box">
+<img src="../../assets/images/home/logo.png" alt="ECOFORM STUDIO">
+<h1 id="wTitle">Selamat datang di Ecoform Studio</h1>
+<p>Sebelum masuk, kenali dulu tujuan kami: mengajak masyarakat peduli lingkungan lewat pengetahuan, desain, dan pilihan produk yang lebih bijak.</p>
+<p><em>Filosofi kami: alam bukan sekadar latar, tetapi mitra dalam setiap rumah yang kita bangun.</em></p>
+<div class="w-pillars"><div><b>1. Belajar</b>Daur ulang, greenhouse, dan green building.</div><div><b>2. Melihat</b>Contoh rumah dan greenhouse, kecil sampai besar.</div><div><b>3. Memilih</b>Tanya admin dulu, lalu beli produknya.</div></div>
+<button class="w-btn" id="wGo" type="button">Saya mengerti, masuk ke website</button></div></div>
+<script>(function(){var w=document.getElementById('welcome');if(!w)return;try{if(sessionStorage.getItem('ef-welcome'))w.className='hide';}catch(e){}
+document.getElementById('wGo').onclick=function(){w.className='hide';try{sessionStorage.setItem('ef-welcome','1')}catch(e){}};
+w.addEventListener('transitionend',function(){if(w.className)w.style.display='none'});if(w.className)w.style.display='none';})();</script>
+
+
+    <!-- =================================
+         NAVBAR
+    ================================== -->
+
+    <header class="navbar" id="navbar">
+
+        <div class="navbar-container">
+
+            <!-- LOGO -->
+            <a href="#home" class="navbar-logo" aria-label="ECOFORM STUDIO Home">
+                <img
+                    src="../../assets/images/home/logo.png"
+                    alt="ECOFORM STUDIO"
+                    class="navbar-logo-image"
+                >
+            </a>
+
+            <!-- NAVIGATION -->
+            <nav class="navbar-menu" id="navbarMenu"
+                aria-label="Main navigation">
+
+                <a href="#home">Beranda</a>
+
+                <a href="../education/index.html">Belajar</a>
+                <a href="../green-architecture/index.html">Desain Hijau</a>
+                <a href="../services/greenhouse-shop.html">Material</a>
+
+                <a href="../portofolio/index.html">Portofolio</a>
+
+                <a href="../about/index.html">Tentang</a>
+
+                <a href="../products/furniture.html">Toko</a>
+                <a href="../contact/index.html" class="nav-cta">Tanya Admin</a>
+
+            </nav>
+
+            <!-- MOBILE MENU BUTTON -->
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                type="button"
+                aria-label="Buka menu navigasi"
+                aria-expanded="false"
+                aria-controls="navbarMenu">
+
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =================================
+         MAIN CONTENT
+    ================================== -->
+
+    <main>
+<section class="hero" id="home">
+
+            <!-- BACKGROUND VIDEO -->
+            <div class="hero-background">
+
+                <video
+                    class="hero-video"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                    aria-hidden="true">
+
+                    <source
+                        src="../../assets/video/home/hero.mp4"
+                        type="video/mp4">
+
+                </video>
+
+            </div>
+
+
+            <!-- DARK OVERLAY -->
+            <div class="hero-overlay"></div>
+
+
+            <!-- HERO CONTENT -->
+            <div class="hero-content">
+
+                <p class="hero-label">ECOFORM STUDIO — RUMAH &amp; RUANG YANG SELARAS DENGAN ALAM</p>
+
+                <h1>Rumah indah,<br>hemat energi,<br>ramah alam.</h1>
+
+                <p class="hero-description">Belajar daur ulang, mengenal greenhouse dan green building, melihat contoh desainnya, lalu pilih produknya dengan tenang — boleh tanya admin dulu.</p>
+
+
+                <!-- HERO BUTTONS -->
+                <div class="hero-actions">
+
+                    <a
+                        href="../portofolio/index.html"
+                        class="hero-button">
+
+                        Mulai Belajar
+
+                    </a>
+
+                    <a
+                        href="../contact/index.html"
+                        class="hero-text-link">
+
+                        Tanya Admin
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- BOTTOM INFORMATION -->
+            <div class="hero-bottom">
+
+                <p>
+                    DAUR ULANG · GREENHOUSE · GREEN BUILDING
+                </p>
+
+                <a href="#alur" class="scroll-indicator">
+
+                    Geser ke bawah
+
+                </a>
+
+            </div>
+
+        </section>
+<section class="f-section" id="tentang">
+  <div class="f-head"><span class="f-tag">Kenapa Ecoform Studio ada</span><h2>Desain yang baik memberi kembali kepada alam</h2>
+  <p>Banyak orang mengira rumah ramah lingkungan itu mahal atau rumit. Padahal sebagian besar dimulai dari hal sederhana: memilah sampah, memilih material dengan bijak, dan merancang rumah yang memanfaatkan cahaya, angin, dan tanaman. Itulah yang ingin kami bagikan di sini.</p></div>
+  <div class="f-cols">
+    <div class="f-card"><div><h3>Daur ulang</h3><p>Mengolah kembali barang bekas menjadi bahan atau produk baru, sehingga sampah berkurang.</p></div></div>
+    <div class="f-card"><div><h3>Greenhouse</h3><p>Rumah kaca untuk menanam di lingkungan yang bisa diatur: dari skala rumah hingga produksi besar.</p></div></div>
+    <div class="f-card"><div><h3>Green building</h3><p>Rumah yang dirancang agar lebih hemat listrik dengan memanfaatkan energi alam.</p></div></div>
+  </div>
+</section>
+
+<section class="f-section f-alt" id="alur">
+  <div class="f-head"><span class="f-tag">Alur yang mudah</span><h2>Empat langkah, tanpa perlu paham istilah teknis</h2><p>Ikuti urutannya, atau langsung loncat ke bagian yang kamu butuhkan.</p></div>
+  <div class="f-steps">
+    <a class="f-step" href="../education/index.html"><h3>Pelajari</h3><p>Apa itu daur ulang, greenhouse, dan green building, dijelaskan dengan bahasa sehari-hari.</p><span>Mulai belajar →</span></a>
+    <a class="f-step" href="../green-architecture/index.html"><h3>Lihat contoh</h3><p>Bentuk rumah dan greenhouse hijau, skala kecil sampai besar, sebagai inspirasi.</p><span>Lihat desain →</span></a>
+    <a class="f-step" href="../contact/index.html"><h3>Tanya admin</h3><p>Belum yakin fungsinya? Tanyakan dulu ke admin sebelum memilih produk.</p><span>Hubungi admin →</span></a>
+    <a class="f-step" href="../services/greenhouse-shop.html"><h3>Pilih &amp; beli</h3><p>Pilih kategori material atau produk daur ulang, lalu pesan dengan percaya diri.</p><span>Lihat produk →</span></a>
+  </div>
+</section>
+
+<section class="f-section" id="layanan">
+  <div class="f-head"><span class="f-tag">Apa yang bisa kamu temukan</span><h2>Desain, greenhouse, dan produk daur ulang</h2></div>
+  <div class="f-cols">
+    <a class="f-card" href="../services/architecture.html"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&q=80" alt="Rumah ramah lingkungan" loading="lazy"><div><h3>Rumah hijau</h3><p>Desain rumah indah yang hemat energi.</p></div></a>
+    <a class="f-card" href="../services/greenhouse.html"><img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=900&q=80" alt="Greenhouse" loading="lazy"><div><h3>Greenhouse</h3><p>Desain dan material, skala kecil hingga besar.</p></div></a>
+    <a class="f-card" href="../services/greenhouse-shop.html"><img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=900&q=80" alt="Material pertanian" loading="lazy"><div><h3>Material &amp; perlengkapan</h3><p>Kebutuhan greenhouse dan pertanian modern.</p></div></a>
+    <a class="f-card" href="../products/furniture.html"><img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=900&q=80" alt="Furnitur daur ulang" loading="lazy"><div><h3>Produk daur ulang</h3><p>Furnitur dan dekorasi dari bahan bekas.</p></div></a>
+  </div>
+</section>
+
+<section class="f-section f-alt">
+  <div class="f-ask"><h2>Ragu memilih? Tanya dulu, gratis.</h2><p>Admin kami siap menjelaskan fungsi setiap produk dan membantu memilih yang paling cocok sebelum kamu membeli.</p>
+  <a href="../contact/index.html">Tanya admin sekarang</a><a class="alt" href="../education/index.html">Belajar dulu</a></div>
+</section>
+
+</main>
+
+
+    <!-- =================================
+         JAVASCRIPT
+    ================================== -->
+
+    <script src="../../js/components/navbar.js"></script>
+    <script src="../../js/pages/home.js"></script>
+
+</body>
+</html>

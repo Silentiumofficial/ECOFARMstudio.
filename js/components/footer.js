@@ -1,0 +1,1 @@
+/* Shared footer enhancements entry point. */

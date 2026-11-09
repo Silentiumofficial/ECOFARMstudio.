@@ -1,0 +1,45 @@
+/* ECOFORM STUDIO — lapisan desain ramah pengguna (dimuat paling akhir) */
+:root{--f-green:#2f5233;--f-leaf:#6f9a5b;--f-sand:#f4efe3;--f-ink:#1f2a1f;--f-soft:#5d675b;--f-card:#fffdf7;--f-line:rgba(47,82,51,.16)}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;font-size:17px;line-height:1.75;color:var(--f-ink);background:var(--f-sand)}
+h1,h2,h3{font-family:Georgia,serif;font-weight:500;line-height:1.15}
+.navbar-menu a{font-size:13px;letter-spacing:.4px;text-transform:none;font-weight:600}
+.navbar-menu a.nav-cta{background:var(--f-leaf);color:#fff;padding:9px 18px;border-radius:999px}
+.navbar-menu a.nav-cta::after{display:none}
+/* Layar sambutan */
+#welcome{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;padding:24px;background:linear-gradient(rgba(14,28,16,.82),rgba(14,28,16,.9)),url('../../storage/portofolio-images/home images.png') center/cover;color:#fff;overflow:auto;transition:opacity .5s}
+#welcome.hide{opacity:0;pointer-events:none}
+.w-box{max-width:760px;text-align:center}
+.w-box img{width:150px;margin-bottom:18px}
+.w-box h1{font-size:clamp(32px,6vw,54px);margin:0 0 16px}
+.w-box p{font-size:18px;color:#e6eedc;margin:0 0 14px}
+.w-pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:26px 0;text-align:left}
+.w-pillars div{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:14px;padding:14px 16px;font-size:15px}
+.w-pillars b{display:block;color:#bfe0a8;margin-bottom:4px}
+.w-btn{display:inline-block;background:var(--f-leaf);color:#fff;border:0;border-radius:999px;padding:15px 34px;font-size:17px;font-weight:700;cursor:pointer}
+.w-btn:hover{background:#7fae69}
+/* Bagian beranda */
+.f-section{padding:clamp(56px,7vw,96px) clamp(20px,6vw,90px)}
+.f-head{max-width:720px;margin:0 auto 40px;text-align:center}
+.f-head h2{font-size:clamp(30px,4.5vw,46px);margin:8px 0 12px}
+.f-head p{color:var(--f-soft)}
+.f-tag{display:inline-block;font-size:13px;font-weight:700;letter-spacing:1.5px;color:var(--f-leaf);text-transform:uppercase}
+.f-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;max-width:1150px;margin:auto;counter-reset:s}
+.f-step{background:var(--f-card);border:1px solid var(--f-line);border-radius:20px;padding:26px;text-decoration:none;color:inherit;position:relative;transition:transform .25s,box-shadow .25s}
+.f-step:hover{transform:translateY(-5px);box-shadow:0 18px 40px rgba(31,42,31,.12)}
+.f-step::before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--f-green);color:#fff;font-weight:700;margin-bottom:14px}
+.f-step h3{font-size:22px;margin:0 0 8px}
+.f-step p{font-size:15.5px;color:var(--f-soft);margin:0 0 12px}
+.f-step span{color:var(--f-green);font-weight:700;font-size:15px}
+.f-alt{background:#e9efdf}
+.f-cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;max-width:1150px;margin:auto}
+.f-card{background:var(--f-card);border-radius:20px;overflow:hidden;border:1px solid var(--f-line);text-decoration:none;color:inherit}
+.f-card img{width:100%;height:190px;object-fit:cover}
+.f-card div{padding:20px}
+.f-card h3{font-size:21px;margin:0 0 6px}
+.f-card p{font-size:15.5px;color:var(--f-soft);margin:0}
+.f-ask{max-width:900px;margin:auto;background:var(--f-green);color:#fff;border-radius:26px;padding:clamp(28px,5vw,52px);text-align:center}
+.f-ask h2{font-size:clamp(26px,4vw,38px);margin:0 0 12px}
+.f-ask p{color:#dfead6}
+.f-ask a{display:inline-block;margin:8px 6px 0;padding:14px 28px;border-radius:999px;font-weight:700;text-decoration:none;background:#fff;color:var(--f-green)}
+.f-ask a.alt{background:transparent;border:2px solid #fff;color:#fff}
+@media(max-width:700px){body{font-size:16px}.w-box p{font-size:16px}}

@@ -1,0 +1,1 @@
+/* Cart requires product data and a backend before checkout can be enabled. */

@@ -1,0 +1,154 @@
+
+/* ==================================================
+   ECOFORM STUDIO
+   GLOBAL DESIGN VARIABLES
+================================================== */
+
+:root {
+
+    /* =================================
+       1. BRAND COLORS
+    ================================= */
+
+    --color-primary: #526B50;
+    --color-primary-dark: #354B36;
+    --color-primary-light: #82977B;
+
+    --color-secondary: #B5A58A;
+
+    /* =================================
+       2. NEUTRAL COLORS
+    ================================= */
+
+    --color-black: #080A08;
+    --color-dark: #111511;
+    --color-charcoal: #1B211C;
+
+    --color-white: #FFFFFF;
+    --color-off-white: #F7F8F5;
+
+    --color-gray-100: #F0F1ED;
+    --color-gray-200: #DDE0D9;
+    --color-gray-300: #B8BDB5;
+    --color-gray-400: #858C82;
+    --color-gray-500: #626A60;
+
+    /* =================================
+       3. BACKGROUND COLORS
+    ================================= */
+
+    --bg-primary: #F7F8F5;
+    --bg-secondary: #ECEFE8;
+    --bg-dark: #080A08;
+    --bg-card: #FFFFFF;
+
+    /* =================================
+       4. TEXT COLORS
+    ================================= */
+
+    --text-primary: #171C17;
+    --text-secondary: #626A60;
+    --text-light: #F7F8F5;
+    --text-muted: #92998F;
+
+    /* =================================
+       5. TYPOGRAPHY
+    ================================= */
+
+    --font-primary: 'Manrope', sans-serif;
+    --font-heading: 'Manrope', sans-serif;
+    --font-secondary: 'DM Sans', sans-serif;
+    --font-accent: 'Cormorant Garamond', serif;
+
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-md: 1.125rem;
+    --font-size-lg: 1.25rem;
+    --font-size-xl: 1.5rem;
+    --font-size-2xl: 2rem;
+    --font-size-3xl: 2.5rem;
+    --font-size-4xl: 3.5rem;
+    --font-size-5xl: 4.5rem;
+
+    /* =================================
+       6. FONT WEIGHTS
+    ================================= */
+
+    --font-light: 300;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+
+    /* =================================
+       7. SPACING
+    ================================= */
+
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 20px;
+    --space-6: 24px;
+    --space-8: 32px;
+    --space-10: 40px;
+    --space-12: 48px;
+    --space-16: 64px;
+    --space-20: 80px;
+    --space-24: 96px;
+    --space-32: 128px;
+
+    /* =================================
+       8. CONTAINER
+    ================================= */
+
+    --container-width: 1440px;
+    --container-padding: 5%;
+    --container-padding-mobile: 20px;
+
+    /* =================================
+       9. BORDER RADIUS
+    ================================= */
+
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 20px;
+    --radius-full: 999px;
+
+    /* =================================
+       10. BORDERS
+    ================================= */
+
+    --border-light: 1px solid #E1E4DC;
+    --border-dark: 1px solid rgba(255, 255, 255, 0.15);
+    --border-primary: 1px solid var(--color-primary);
+
+    /* =================================
+       11. SHADOWS
+    ================================= */
+
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.12);
+
+    /* =================================
+       12. TRANSITIONS
+    ================================= */
+
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.4s ease;
+    --transition-slow: 0.7s ease;
+
+    /* =================================
+       13. Z-INDEX
+    ================================= */
+
+    --z-base: 1;
+    --z-dropdown: 100;
+    --z-navbar: 1000;
+    --z-overlay: 2000;
+    --z-modal: 3000;
+
+}

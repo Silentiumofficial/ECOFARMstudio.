@@ -1,0 +1,16 @@
+
+body {
+    background: var(--color-black);
+    color: var(--color-white);
+}
+
+.container {
+    width: min(90%, var(--container-width));
+    margin: 0 auto;
+}
+
+.section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
